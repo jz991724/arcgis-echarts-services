@@ -1,0 +1,21 @@
+{
+  "name": "arcgis-echarts-services",
+  "version": "1.0.3",
+  "description": "Arcgis地图上添加Echarts的图表Services",
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p ."
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "author": "花姐夫JUN",
+  "license": "ISC",
+  "dependencies": {
+    "echarts": "^5.3.0",
+    "jquery": "^3.6.0"
+  }
+}
